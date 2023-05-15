@@ -37,6 +37,11 @@
     color: white;
 }
 
+.header-buttons button:hover {
+    background-color: #077eb4;
+    box-shadow: 0px 2px 2px black;
+}
+
 .search-box {
     display: flex;
     padding-top: 30px;
@@ -50,13 +55,25 @@
     border: none;
     border-radius: 50px;
     background-color: #e2e8f0;
+    outline: none;
+}
+
+.search-bar input:hover,
+.search-bar input:focus {
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.158);
+    outline: none;
 }
 
 .search-btn {
     width: 40px;
     height: 40px;
+    margin-left: 5px;
     border: none;
     background-color: white;
+}
+
+.search-btn:hover {
+    transform: scale(1.2);
 }
 
 .sidebar {
