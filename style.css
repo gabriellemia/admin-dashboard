@@ -77,8 +77,14 @@
 }
 
 .sidebar {
+    display: grid;
     background-color: #0ea5e9;
     grid-row: 1/3;
+    padding: 30px;
+    padding-bottom: 120%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .main-content {
@@ -126,4 +132,129 @@
 
 .intro {
     padding-left: 20px;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.dashboard img {
+    width: 50px;
+    filter: brightness(0) invert(1);
+    padding-right: 10px;
+
+}
+
+.communities {
+    padding-bottom: 60px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.messages {
+    display: flex;
+    align-items: center;
+}
+
+.messages img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.history {
+    display: flex;
+    align-items: center;
+}
+
+.history img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+}
+
+.tasks img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.communities {
+    display: flex;
+    align-items: center;
+}
+
+.communities img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+}
+
+.settings img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.support {
+    display: flex;
+    align-items: center;
+}
+
+.support img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.privacy {
+    display: flex;
+    align-items: center;
+}
+
+.privacy img {
+    width: 25px;
+    filter: brightness(0) invert(1);
+    padding-right: 20px;
+    padding-left: 15px;
 }
