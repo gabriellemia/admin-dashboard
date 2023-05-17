@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 6fr;
     height: 100vh;
     margin: 0%;
@@ -321,8 +321,9 @@
 
 .box-icons {
     display: flex;
-    margin-left: 200px;
-    width: 40px; 
+    margin-left: 250px;
+    width: 45px; 
+    
 }
 
 .box-icons img {
